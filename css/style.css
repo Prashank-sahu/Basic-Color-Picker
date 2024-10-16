@@ -1,0 +1,32 @@
+.color-picker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  #color {
+    width: 100px;
+    height: 50px;
+    margin: 20px 0;
+  }
+  
+  .color-info {
+    font-size: 18px;
+  }
+  
+  #copy-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #copy-btn:hover {
+    background-color: #005f7a;
+  }
+  
